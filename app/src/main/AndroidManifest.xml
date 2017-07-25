@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ge.med.mobile.nursing">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:name=".base.Myapp"
+        android:allowBackup="true"
+        android:icon="@mipmap/index"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Theme.Holo.Light.NoActionBar.TranslucentDecor -->
+        <activity
+            android:name=".ui.activity.LoginActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity android:name=".ui.activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.activity.XGMMActivity" />
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:alwaysRetainTaskState="true"
+            android:launchMode="singleTask" />
+
+        <!-- <service -->
+        <!-- android:name=".service.MyService" -->
+        <!-- android:enabled="true" -->
+        <!-- android:exported="false" /> -->
+
+        <activity android:name=".ui.activity.ErWeiMaActivity" />
+        <activity android:name=".ui.activity.SaoMiaoActivitya" />
+        <activity android:name=".ui.activity.SheZhiActivity" />
+        <activity android:name=".ui.activity.XGMM2Activity" />
+        <activity android:name=".ui.activity.TXFSActivity" />
+        <activity
+            android:name=".ui.activity.HZActivity"
+            android:launchMode="singleTask" />
+        <activity android:name=".ui.activity.DRTZActivity" />
+        <activity android:name=".ui.activity.TiZheng_DuoRenActivity" />
+        <activity android:name=".ui.activity.XSDRActivity" />
+        <activity android:name=".ui.activity.JiaoBanActivity" />
+        <activity android:name=".ui.activity.PG_ZJMActivity" />
+        <activity android:name=".ui.activity.YZ_ZXActivity" />
+        <activity android:name=".ui.activity.Shu_Xue_SQ_YCActivity" />
+        <activity android:name=".ui.activity.HD_YZActivity" />
+        <activity android:name=".ui.activity.YZ_HD_LXActivity" />
+        <activity android:name=".ui.activity.YZ_HD_RenActivity" />
+        <activity
+            android:name=".ui.activity.JiaoBan_HZActivity"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity android:name=".ui.activity.YZ_ZX_ZhuSheActivity" />
+        <activity android:name=".ui.activity.YZ_ZX_ZhuShe_FenCiActivity" />
+        <activity android:name=".ui.activity.YZ_ZX_ZhuShe_FenCi_SJActivity" />
+        <activity android:name=".ui.activity.YZ_ZX_ZhuShe_BeiZhuActivity" />
+        <activity android:name=".ui.activity.YZ_ZX_KouFuYaoActivity" />
+        <activity android:name=".ui.activity.YZ_ZX_JianYanActivity" />
+        <activity android:name=".ui.activity.YZ_ZX_JianYan_YiChangActivity" />
+        <activity android:name=".ui.activity.YZ_ZX_ShuYeActivity" />
+        <activity android:name=".ui.activity.YZ_ZX_ShuYe_DiSuActivity" />
+        <activity android:name=".ui.activity.ShiJianActivity" />
+        <activity android:name=".ui.activity.YZ_YaoPin_XiangQingActivity" />
+        <activity android:name=".ui.activity.PG_DTMainActivity" />
+        <activity
+            android:name=".ui.activity.PG_DTQuestionActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".ui.activity.YZ_HD_YiChangActivity" />
+        <activity android:name=".ui.activity.YZ_ZX_ZhuShe2Activity" />
+        <activity android:name=".ui.activity.YZ_ZX_ShuYe_HuanYeActivity" />
+        <activity android:name=".ui.activity.VitalSignSheetActivity" />
+        <activity android:name=".ui.activity.IPSheZhiActivity" />
+        <activity android:name=".ui.activity.XuanJiaoActivity" />
+
+        <service
+            android:name=".service.TongZhiService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver android:name=".scancode.DataEditingPlugin">
+            <intent-filter>
+                <action android:name="com.honeywell.decode.intent.action.EDIT_DATA" />
+            </intent-filter>
+        </receiver>
+        android:exported="false" />
+        <service
+            android:name=".service.SyncService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".ui.activity.SOPActivity" />
+        <activity android:name=".ui.activity.JiaoBanSJActivity" />
+        <activity android:name=".ui.activity.PG_TengTongActivity" />
+        <activity android:name=".ui.activity.YZ_XiangQingActivity" />
+        <activity android:name=".ui.activity.YZ_ShuXue_QuXueActivity" />
+        <activity android:name=".ui.activity.ChangGuiHuLiActivity" />
+        <activity android:name=".ui.activity.AssessmentPreviewActivity" />
+        <activity android:name=".ui.activity.AssessExplainActivity" />
+        <activity android:name=".ui.activity.EventActivity" />
+        <activity android:name=".ui.activity.AddEventActivity" />
+        <activity android:name=".ui.activity.SignAssignmentActivity" />
+    </application>
+
+</manifest>

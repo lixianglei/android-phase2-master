@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/tingzhi_item_rl"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/login_edt_shape">
+
+        <TextView
+            android:id="@+id/tongzhi_type_bg_tv"
+            android:layout_width="65dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/tz_shape_0" />
+
+        <ImageView
+            android:id="@+id/tongzhi_goto_imgv"
+            android:layout_width="65dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/tz_shape_0"
+            android:padding="20dp"
+            android:visibility="gone"
+            android:src="@mipmap/icon_goto" />
+
+        <ImageView
+            android:id="@+id/tz_imgv"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@mipmap/icon_injection_red" />
+
+        <TextView
+            android:id="@+id/tz_ch_xm_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/tz_imgv"
+            android:text="33床 孙尚香"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tz_sj_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/tongzhi_type_bg_tv"
+            android:text="15:33"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tz_xian_tv"
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tz_ch_xm_tv"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/tz_imgv"
+            android:background="#ccc" />
+
+        <TextView
+            android:id="@+id/tz_nei_rong_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tz_xian_tv"
+            android:layout_marginRight="55dp"
+            android:layout_marginTop="5dp"
+            android:maxLength="10"
+            android:layout_toRightOf="@+id/tz_imgv"
+            android:lines="1"
+            android:text="30%泛影葡胺1ml静脉注射"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/tz_nei_rong_lx_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tz_nei_rong_tv"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/tz_imgv"
+            android:text="医嘱未执行"
+            android:textColor="#cb0019"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tz_sj_lx_tv"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="已超时"
+            android:textColor="#fff"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tz_shu_zi_tv"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lines="1"
+            android:text="45"
+            android:textColor="#fff"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tz_sj_dw_tv"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:text="分钟"
+            android:textColor="#fff"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/yz_shuxue_xuanzhong_check_box"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/yz_hd_miao_bian_shape"
+            android:visibility="gone" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.MainActivity">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_above="@+id/mina3_ll"
+    android:layout_height="match_parent">
+    <include layout="@layout/biao_ti_lan_item"/>
+    <FrameLayout
+        android:id="@+id/main3_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:textColor="#0ff"
+        android:textSize="80sp" />
+</LinearLayout>
+    <View
+        android:layout_above="@+id/mina3_ll"
+        android:background="#ededed"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+<LinearLayout
+    android:id="@+id/mina3_ll"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentLeft="true"
+    android:orientation="horizontal"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentStart="true">
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/main3_ll_hz_bt"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:textColor="@color/se559bec"
+        android:drawableTop="@mipmap/icon_patient_pre"
+        android:gravity="center_horizontal"
+        android:layout_height="42dp"
+        android:text="患者" />
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/main3_ll_rw_bt"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:drawableTop="@mipmap/icon_task_nor"
+        android:gravity="center_horizontal"
+        android:layout_height="42dp"
+        android:text="任务" />
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/main3_ll_tz_bt"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:drawableTop="@mipmap/icon_notice_nor"
+        android:gravity="center_horizontal"
+        android:layout_height="42dp"
+        android:text="通知" />
+</LinearLayout>
+    <include layout="@layout/fragment_shai_xuan_include" />
+
+</RelativeLayout>

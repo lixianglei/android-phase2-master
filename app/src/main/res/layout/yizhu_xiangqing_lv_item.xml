@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/yizhu_xiangqing_lv_bgtv1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/login_edt_shape" />
+
+    <TextView
+        android:id="@+id/yizhu_xiangqing_lv_bgtv2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/login_edt_shape_touse559bec" />
+
+    <TextView
+        android:id="@+id/yizhu_xiangqing_lv_tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:lines="1"
+        android:maxWidth="300dp"
+        android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa 80 mg"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/yizhu_xiangqing_lv_tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yizhu_xiangqing_lv_tv1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2dp"
+        android:ellipsize="end"
+        android:lines="1"
+        android:maxWidth="300dp"
+        android:text="aaaaaaa 80 mg"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/yizhu_xiangqing_lv_imgv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:src="@mipmap/icon_complete" />
+</RelativeLayout>

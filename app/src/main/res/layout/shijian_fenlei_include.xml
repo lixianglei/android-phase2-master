@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/lv_rl"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <ListView
+        android:divider="#00ffffff"
+        android:dividerHeight="10dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/huanzhe_zhusu_shijian_fenlei"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</RelativeLayout>

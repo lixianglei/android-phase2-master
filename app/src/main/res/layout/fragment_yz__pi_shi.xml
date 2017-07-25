@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ge.med.mobile.nursing.ui.fragment.YZ_PiShiFragment">
+
+    <LinearLayout
+        android:id="@+id/yz_zx_zhu_she_bt_ll"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="#ccc"
+        android:layout_height="45dp">
+        <Button
+            android:id="@+id/pi_shi_beizhu_bt"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/abc_secondary_text_material_light"
+            android:textSize="18sp"
+            android:text="备注"
+            android:background="@drawable/ti_zheng_duo_ren_bt_selater"
+            android:layout_marginRight="1dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/pi_shi_yang_xing_bt"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:text="阳性(+)"
+            android:background="@drawable/ti_zheng_duo_ren_bt_selater2"
+            android:layout_marginRight="1dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/pi_shi_yin_xing_bt"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/abc_secondary_text_material_light"
+            android:textSize="18sp"
+            android:text="阴性(-)"
+            android:background="@drawable/ti_zheng_duo_ren_bt_selater"
+            android:layout_marginRight="1dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</RelativeLayout>

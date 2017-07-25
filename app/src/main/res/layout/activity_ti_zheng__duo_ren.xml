@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#888"
+    tools:context="com.ge.med.mobile.nursing.ui.activity.TiZheng_DuoRenActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:background="@drawable/login_edt_shape1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <include layout="@layout/biao_ti_lan_item" />
+
+        <include layout="@layout/patient_info_pannel" />
+
+        <TextView
+            android:id="@+id/drtz_sj_imgv"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@null"
+            android:gravity="center"
+            android:text="本次收集时间"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <include layout="@layout/vital_sign_keyboard_include" />
+
+        <include layout="@layout/shi_jian_xuan_ze_include" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ti_zheng_duo_ren_bt_ll"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ddd"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ti_zheng_duo_ren_back_bt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/ti_zheng_duo_ren_bt_selater"
+            android:gravity="center"
+            android:src="@mipmap/icon_choose1" />
+
+        <ImageButton
+            android:id="@+id/ti_zheng_duo_ren_next_bt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/ti_zheng_duo_ren_bt_selater"
+            android:gravity="center"
+            android:src="@mipmap/icon_choose" />
+
+        <Button
+            android:id="@+id/ti_zheng_duo_ren_baocun_bt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@drawable/ti_zheng_duo_ren_bt_selater1"
+            android:gravity="center"
+            android:text="保存"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <include layout="@layout/fragment_filter_include" />
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="113dp"
+    android:layout_height="113dp"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:background="@drawable/login_edt_shape"
+        android:layout_width="113dp"
+        android:layout_height="113dp" />
+    <ImageView
+        android:id="@+id/jiao_ban_ji_bie_imgv"
+        android:layout_width="35dp"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/icon_two"
+        android:layout_height="35dp" />
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/jiao_ban_chuang_hao_tv"
+            android:text="1"
+            android:textSize="50sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="床"
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:background="#ccc"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <TextView
+        android:text="孙玉正"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/jiao_ban_xm_tv"
+       android:layout_marginTop="62dp"
+        android:maxLength="5"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+  <TextView
+      android:text="G0018355_2"
+      android:textSize="16sp"
+      android:textColor="#adadad"
+      android:layout_marginBottom="10dp"
+      android:layout_alignParentBottom="true"
+      android:id="@+id/jiao_ban_id_tv"
+      android:layout_width="match_parent"
+      android:gravity="center"
+      android:layout_height="wrap_content" />
+
+<TextView
+    android:id="@+id/jiao_ban_01"
+    android:text="全选"
+    android:gravity="center_horizontal"
+    android:paddingTop="70dp"
+    android:textSize="20sp"
+    android:textColor="#fff"
+    android:background="@mipmap/quan_xuan1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+<CheckBox
+    android:id="@+id/jiao_ban_check_box"
+    android:button="@null"
+    android:background="@drawable/jiao_ban_xuan_ze_selector"
+    android:layout_width="114dp"
+    android:layout_height="114dp" />
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/jiao_ban_check_imgv"
+        android:src="@mipmap/icon_select"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+
+</RelativeLayout>

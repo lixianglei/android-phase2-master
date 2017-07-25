@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:id="@+id/pg_item_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/yz_hd_miao_bian_shape1"
+        android:padding="8dp"
+        android:text="这是一个选项，你可以选我，也可以不选我"
+        android:textColor="@color/se559bec"
+        android:textSize="18sp" />
+    <ImageView
+        android:id="@+id/assess_question_image_iv"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/yz_hd_miao_bian_shape1"
+        android:src="@mipmap/icon_medicine"
+        />
+
+    <ImageView
+        android:id="@+id/pg_selected_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="4dp"
+        android:src="@mipmap/icon_select" />
+</RelativeLayout>

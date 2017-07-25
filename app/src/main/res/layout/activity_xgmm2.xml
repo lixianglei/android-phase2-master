@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.ge.med.mobile.nursing.ui.activity.XGMM2Activity">
+    <include layout="@layout/biao_ti_lan_item"/>
+    <TextView
+        android:text="请输入原密码"
+        android:gravity="center_vertical"
+        android:paddingLeft="30dp"
+        android:textSize="14sp"
+        android:textColor="#cecece"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="-5dp"
+        android:layout_height="55dp" />
+    <EditText
+        android:id="@+id/xgmm2_ymm_edt1"
+        android:inputType="textPassword"
+        android:hint="新密码"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:textColorHint="#9b9b9b"
+        android:background="@drawable/shezhi_tv_shape"
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+    <LinearLayout
+        android:background="@drawable/shezhi_tv_shape"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/xgmm2_ymm_edt2"
+            android:inputType="textPassword"
+            android:hint="确认密码"
+            android:paddingLeft="20dp"
+            android:textColorHint="#9b9b9b"
+            android:background="@null"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="55dp" />
+        <Button
+            android:id="@+id/xgmm2_ymm_bt"
+            android:background="@null"
+            android:textColor="#559bec"
+            android:text="确定"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

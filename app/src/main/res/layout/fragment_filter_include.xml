@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/filter_include_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:visibility="visible">
+
+    <TextView
+        android:id="@+id/filter_left_blank_tv"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="19"
+        android:background="#44000000" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="12"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/nurse_qrcode_region"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <ImageView
+                android:id="@+id/qr_code_image"
+
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/filter_item_nurse_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="林晓梅"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/filter_item_nurse_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="SG20170101"
+                android:textColor="#aaa"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#eee" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="12"
+            android:background="#fff"
+            android:orientation="vertical">
+
+            <!--搜索框-->
+            <EditText
+                android:id="@+id/et_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:maxLines="1"
+                android:hint="输入关键字搜索" />
+
+            <ListView
+                android:id="@+id/filter_item_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/filter_item_fill_blank_tv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/filter_item_setting_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eee" />
+
+        <TextView
+            android:id="@+id/filter_setting_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawableLeft="@mipmap/icon_set"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="设置"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/filter_item_quit_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#eee" />
+
+        <TextView
+            android:id="@+id/filter_quit_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:drawableLeft="@mipmap/icon_quit"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="退出"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</LinearLayout>

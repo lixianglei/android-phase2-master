@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="203dp"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="203dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/login_edt_shape">
+
+
+        <ImageView
+            android:id="@+id/duoren_tizheng_jiaobiao_imgv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/icon_two" />
+
+        <TextView
+            android:id="@+id/duoren_tizheng_title_name"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="33床 孙尚香 (G0018355)"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/duoren_tizheng_title_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/duoren_tizheng_title_name"
+            android:layout_alignBaseline="@+id/duoren_tizheng_title_name"
+            android:text="16:00"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/duoren_tizheng_title_name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="10dp"
+            android:background="#ddd" />
+
+        <TextView
+            android:id="@+id/duoren_tizheng_tiwen_tv"
+            android:layout_width="80dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/duoren_tizheng_title_name"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:text="体温"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/duoren_tizheng_shousuoya_tv"
+            android:layout_width="80dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/duoren_tizheng_huxi_tv"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:text="收缩压"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/duoren_tizheng_xueyang_tv"
+            android:layout_width="80dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/duoren_tizheng_shousuoya_tv"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:text="血氧"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/duoren_tizheng_huxi_tv"
+            android:layout_width="80dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/duoren_tizheng_tiwen_tv"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:text="呼吸"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/duoren_tizheng_tiwen_zhi_tv"
+            android:layout_width="80dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/duoren_tizheng_title_name"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"
+            android:text="37.5℃"
+            android:textColor="#9b9b9b"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/duoren_tizheng_shousuoya_zhi_tv"
+            android:layout_width="80dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/duoren_tizheng_huxi_tv"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"
+            android:text="140mmHg"
+            android:textColor="#9b9b9b"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/duoren_tizheng_xueyang_zhi_tv"
+            android:layout_width="80dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/duoren_tizheng_shousuoya_tv"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"
+            android:text="/"
+            android:textColor="#9b9b9b"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/duoren_tizheng_huxi_zhi_tv"
+            android:layout_width="80dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/duoren_tizheng_tiwen_tv"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"
+            android:text="25次/分"
+            android:textColor="#9b9b9b"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/duoren_tizheng_maibo_tv"
+            android:layout_width="80dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/duoren_tizheng_title_name"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="20dp"
+            android:text="脉搏"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/duoren_tizheng_shuzhangya_tv"
+            android:layout_width="80dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/duoren_tizheng_huxi_tv"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="20dp"
+            android:text="舒张压"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/duoren_tizheng_xuetang_tv"
+            android:layout_width="80dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/duoren_tizheng_shousuoya_tv"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="20dp"
+            android:text="血糖"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/duoren_tizheng_xinlv_tv"
+            android:layout_width="80dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/duoren_tizheng_tiwen_tv"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="20dp"
+            android:text="心率"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/duoren_tizheng_maibo_zhi_tv"
+            android:layout_width="80dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/duoren_tizheng_title_name"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="20dp"
+            android:text="/"
+            android:textColor="#9b9b9b"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/duoren_tizheng_shuzhangya_zhi_tv"
+            android:layout_width="80dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/duoren_tizheng_huxi_tv"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="20dp"
+            android:text="90mmHg"
+            android:textColor="#9b9b9b"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/duoren_tizheng_xuetang_zhi_tv"
+            android:layout_width="80dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/duoren_tizheng_shousuoya_tv"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="20dp"
+            android:text="/"
+            android:textColor="#9b9b9b"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/duoren_tizheng_xinlv_zhi_tv"
+            android:layout_width="80dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/duoren_tizheng_tiwen_tv"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="20dp"
+            android:text="75次/分"
+            android:textColor="#9b9b9b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/duoren_tizheng_tiwen_tv"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="#ddd" />
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/duoren_tizheng_huxi_tv"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="#ddd" />
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/duoren_tizheng_shousuoya_tv"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="#ddd" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/duoren_tizheng_xuetang_tv"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="#ddd" />
+    </RelativeLayout>
+    <CheckBox
+        android:id="@+id/jiao_ban_check_box"
+        android:button="@null"
+        android:background="@drawable/jiao_ban_xuan_ze_selector"
+        android:layout_width="match_parent"
+        android:layout_height="203dp" />
+    <ImageView
+        android:id="@+id/jiao_ban_check_imgv"
+        android:src="@mipmap/icon_select"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="23dp"
+        android:layout_height="23dp" />
+</RelativeLayout>

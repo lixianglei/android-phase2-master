@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ge.med.mobile.nursing.ui.fragment.YZ_ShuXueFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bt_ll"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/yz_shu_xue_name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:text="输血申请摘要"
+            android:textSize="20sp" />
+
+        <include
+            layout="@layout/shu_xue_inculde"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/caixue_shuangren_cb"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@+id/shuxue_xuedai_hedui_cb4"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/shuxue_hedui_selector"
+            android:button="@null"
+            android:paddingLeft="15dp"
+            android:text="双人确认"
+            android:textColor="#98000000"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

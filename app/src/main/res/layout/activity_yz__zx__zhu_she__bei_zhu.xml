@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#888"
+    tools:context="com.ge.med.mobile.nursing.ui.activity.YZ_ZX_ZhuShe_BeiZhuActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/biao_ti_lan_item"/>
+        <include layout="@layout/yi_zhu_tou_tiao_mu_include"/>
+<EditText
+    android:id="@+id/beizhu_neirong_edt"
+    android:layout_width="match_parent"
+    android:background="@drawable/login_edt_shape"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:hint="请输入备注"
+    android:paddingTop="5dp"
+    android:paddingLeft="10dp"
+    android:gravity="start"
+    android:textColorHint="#adadad"
+    android:textSize="14sp"
+    android:layout_height="250dp" />
+    </LinearLayout>
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/yz_zx_zhushe_fenci_baocun_bt"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="@drawable/ti_zheng_duo_ren_bt_selater1"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:text="完成"
+        android:layout_height="45dp" />
+</RelativeLayout>

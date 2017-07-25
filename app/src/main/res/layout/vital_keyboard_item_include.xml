@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vital_keyboard_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+    <TextView
+        android:id="@+id/vital_item_bt"
+        android:text="9"
+        android:textSize="18sp"
+        android:textColor="#5f5f5f"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="1dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/ti_zheng_xiaojianpan_bt_selater"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="45dp" />
+    <ImageView
+        android:id="@+id/vital_item_ib"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/ti_zheng_xiaojianpan_bt_selater"
+        android:src="@mipmap/icon_delete"
+        android:scaleType="centerInside"
+        />
+</RelativeLayout>

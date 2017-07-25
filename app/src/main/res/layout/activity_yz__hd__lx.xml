@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#888"
+    tools:context="com.ge.med.mobile.nursing.ui.activity.YZ_HD_LXActivity">
+    <include layout="@layout/biao_ti_lan_item"/>
+    <TextView
+        android:id="@+id/yz_hd_lx_zhanweizhi"
+        android:layout_width="match_parent"
+        android:layout_height="75dp" />
+
+    <ListView
+        android:id="@+id/yz_hd_lx_sj_lv"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/yz_hd_lx_zhanweizhi"
+        android:layout_height="match_parent"
+        android:divider="#00aaaaaa"
+        android:listSelector="#f00"
+        android:layout_above="@+id/yz_hd_lx_bt_ll"
+        android:dividerHeight="5dp"></ListView>
+    <LinearLayout
+        android:id="@+id/yz_hd_lx_bt_ll"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_height="45dp">
+
+        <Button
+            android:id="@+id/yz_hd_lx_yichang_bt"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:enabled="false"
+            android:textColor="@color/abc_secondary_text_material_light"
+            android:textSize="18sp"
+            android:text="异常"
+            android:background="@drawable/ti_zheng_duo_ren_bt_selater"
+            android:layout_marginRight="1dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/yz_hd_lx_tijiao_bt"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/ti_zheng_duo_ren_bt_selater1"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:text="提交"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <include layout="@layout/yi_zhu_xuan_xiang_includ"/>
+
+</RelativeLayout>

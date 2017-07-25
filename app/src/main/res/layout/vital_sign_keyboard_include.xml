@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vital_keyboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/vital_range_include"/>
+        <include layout="@layout/vital_single_include"/>
+        <include layout="@layout/vital_single_editable_include"/>
+
+        <include layout="@layout/vital_editor_include"/>
+        <include layout="@layout/vital_temperature_keyboard"/>
+        <include layout="@layout/tengtong_keyboard_include" />
+
+        <GridView
+            android:id="@+id/vital_keyboard_gv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="4"
+            android:horizontalSpacing="1dp"
+            android:verticalSpacing="1dp"
+            android:visibility="gone"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"></GridView>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/more_notes_lv"
+        android:background="#fff"
+        android:paddingLeft="20dp"
+        android:divider="#00aaaaaa"
+        android:dividerHeight="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+</RelativeLayout>

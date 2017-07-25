@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/tong_bei_tou_imgv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/tong_bei_tou" />
+
+        <ImageView
+            android:id="@+id/tong_bei_jing_imgv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_tou_imgv1"
+            android:src="@mipmap/tong_bei_jing" />
+
+        <ImageView
+            android:id="@+id/tong_bei_bei_imgv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_jing_imgv2"
+            android:src="@mipmap/tong_bei_bei" />
+
+        <ImageView
+            android:id="@+id/tong_bei_zuoshouzhou_imgv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_bei_imgv3"
+            android:src="@mipmap/tong_bei_zuoshouzhou" />
+
+        <ImageView
+            android:id="@+id/tong_bei_yao_imgv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_bei_imgv3"
+            android:layout_toRightOf="@+id/tong_bei_zuoshouzhou_imgv4"
+            android:src="@mipmap/tong_bei_yao" />
+
+        <ImageView
+            android:id="@+id/tong_bei_youshouzhou_imgv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_bei_imgv3"
+            android:layout_toRightOf="@+id/tong_bei_yao_imgv5"
+            android:src="@mipmap/tong_bei_youshouzhou" />
+
+        <ImageView
+            android:id="@+id/tong_bei_zuoshoubei_imgv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_youshouzhou_imgv6"
+            android:src="@mipmap/tong_bei_zuoshoubei" />
+
+        <ImageView
+            android:id="@+id/tong_bei_tun_imgv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_youshouzhou_imgv6"
+            android:layout_toRightOf="@+id/tong_bei_zuoshoubei_imgv7"
+            android:src="@mipmap/tong_bei_tun" />
+
+        <ImageView
+            android:id="@+id/tong_bei_youshoubei_imgv9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_youshouzhou_imgv6"
+            android:layout_toRightOf="@+id/tong_bei_tun_imgv8"
+            android:src="@mipmap/tong_bei_youshoubei" />
+
+        <ImageView
+            android:id="@+id/tong_bei_rentibei_imgv10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_youshoubei_imgv9"
+            android:src="@mipmap/tong_bei_rentibei" />
+
+        <ImageView
+            android:id="@+id/tong_bei_zuozugen_imgv11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_rentibei_imgv10"
+            android:src="@mipmap/tong_bei_zuozugen" />
+
+        <ImageView
+            android:id="@+id/tong_bei_youzugen_imgv12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_rentibei_imgv10"
+            android:layout_toRightOf="@+id/tong_bei_zuozugen_imgv11"
+            android:src="@mipmap/tong_bei_youzugen" />
+
+        <ImageView
+            android:id="@+id/tong_bei_zuozudi_imgv13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_zuozugen_imgv11"
+            android:src="@mipmap/tong_bei_zuozudi" />
+
+        <ImageView
+            android:id="@+id/tong_bei_youzudi_imgv14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_zuozugen_imgv11"
+            android:layout_toRightOf="@+id/tong_bei_zuozudi_imgv13"
+            android:src="@mipmap/tong_bei_youzudi" />
+
+        <ImageView
+            android:id="@+id/tong_bei_zuojiaozhi_imgv15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_youzudi_imgv14"
+            android:src="@mipmap/tong_bei_zuojiaozhi" />
+
+        <ImageView
+            android:id="@+id/tong_bei_youjiaozhi_imgv16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_youzudi_imgv14"
+            android:layout_marginBottom="20dp"
+            android:layout_toRightOf="@+id/tong_bei_zuojiaozhi_imgv15"
+            android:src="@mipmap/tong_bei_youjiaozhi" />
+
+
+        <ImageView
+            android:id="@+id/tong_dian_bei_tou_imgv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/group3" />
+
+        <ImageView
+            android:id="@+id/tong_dian_bei_jing_imgv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_tou_imgv1"
+            android:src="@mipmap/group2" />
+
+        <ImageView
+            android:id="@+id/tong_dian_bei_bei_imgv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_jing_imgv2"
+            android:src="@mipmap/group0"/>
+
+        <ImageView
+            android:id="@+id/tong_dian_bei_zuoshouzhou_imgv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_bei_imgv3"
+            android:src="@mipmap/group6" />
+
+        <ImageView
+            android:id="@+id/tong_dian_bei_yao_imgv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_bei_imgv3"
+            android:layout_toRightOf="@+id/tong_bei_zuoshouzhou_imgv4"
+            android:src="@mipmap/group5" />
+
+        <ImageView
+            android:id="@+id/tong_dian_bei_youshouzhou_imgv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_bei_imgv3"
+            android:layout_toRightOf="@+id/tong_bei_yao_imgv5"
+            android:src="@mipmap/group4" />
+
+        <ImageView
+            android:id="@+id/tong_dian_bei_zuoshoubei_imgv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_youshouzhou_imgv6"
+            android:src="@mipmap/group7" />
+
+        <ImageView
+            android:id="@+id/tong_dian_bei_tun_imgv8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_youshouzhou_imgv6"
+            android:layout_toRightOf="@+id/tong_bei_zuoshoubei_imgv7"
+            android:src="@mipmap/group8" />
+
+        <ImageView
+            android:id="@+id/tong_dian_bei_youshoubei_imgv9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_youshouzhou_imgv6"
+            android:layout_toRightOf="@+id/tong_bei_tun_imgv8"
+            android:src="@mipmap/group9" />
+
+        <ImageView
+            android:id="@+id/tong_dian_bei_rentibei_imgv10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_youshoubei_imgv9"
+            android:src="@mipmap/group1" />
+
+        <ImageView
+            android:id="@+id/tong_dian_bei_zuozugen_imgv11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_rentibei_imgv10"
+            android:src="@mipmap/group11" />
+
+        <ImageView
+            android:id="@+id/tong_dian_bei_youzugen_imgv12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_rentibei_imgv10"
+            android:layout_toRightOf="@+id/tong_bei_zuozugen_imgv11"
+            android:src="@mipmap/group10" />
+
+        <ImageView
+            android:id="@+id/tong_dian_bei_zuozudi_imgv13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_zuozugen_imgv11"
+            android:src="@mipmap/group12" />
+
+        <ImageView
+            android:id="@+id/tong_dian_bei_youzudi_imgv14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_zuozugen_imgv11"
+            android:layout_toRightOf="@+id/tong_bei_zuozudi_imgv13"
+            android:src="@mipmap/group13" />
+
+        <ImageView
+            android:id="@+id/tong_dian_bei_zuojiaozhi_imgv15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_youzudi_imgv14"
+            android:src="@mipmap/group15" />
+
+        <ImageView
+            android:id="@+id/tong_dian_bei_youjiaozhi_imgv16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tong_bei_youzudi_imgv14"
+            android:layout_marginBottom="20dp"
+            android:layout_toRightOf="@+id/tong_bei_zuojiaozhi_imgv15"
+            android:src="@mipmap/group14" />
+
+        <ImageView
+            android:id="@+id/check_zhengmian_imgv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/tong_bei_tou_imgv1"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/check_zhengmian" />
+    </RelativeLayout>
+</ScrollView>

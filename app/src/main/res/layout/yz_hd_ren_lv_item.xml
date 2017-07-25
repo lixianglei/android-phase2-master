@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/yz_hd_lx_sj_tv"
+        android:layout_below="@+id/yz_hd_lx_zhanweizhi"
+        android:text="2016/10/13"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/yizhu_hedui_ren_lv_item_chakanxiangqing_tv"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/login_edt_shape" />
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="90dp"
+            android:background="@drawable/login_edt_shape" />
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/yizhu_hedui_ren_lv_item_neirong_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/xian"
+        android:layout_marginLeft="75dp"
+        android:lines="1"
+        android:ellipsize="end"
+        android:layout_marginRight="75dp"
+        android:layout_marginTop="10dp"
+        android:text="悬浮红细胞 2.0u"
+        android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/yizhu_hedui_ren_lv_item_tujing_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/yizhu_hedui_ren_lv_item_neirong_tv"
+            android:layout_marginLeft="75dp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:layout_marginRight="75dp"
+            android:layout_marginTop="2dp"
+            android:text="悬浮红细胞 2.0u"
+            android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/hz_yz_pg_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/hz_yz_pg_tv1"
+            android:layout_width="22dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="75dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:text="@string/diedao"
+            android:textColor="#adadad"
+
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/hz_yz_pg_tv2"
+            android:layout_width="22dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:text="@string/diedao"
+            android:textColor="#adadad"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/hz_yz_pg_tv3"
+            android:layout_width="22dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:text="@string/diedao"
+            android:textColor="#adadad"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/hz_yz_pg_tv4"
+            android:layout_width="22dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:text="@string/diedao"
+            android:textColor="#adadad"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/yizhu_hedui_ren_lv_item_sj_tv"
+        android:layout_width="60dp"
+        android:layout_height="85dp"
+        android:gravity="center"
+        android:text="17:00"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/yizhu_hedui_ren_lv_item_check_box"
+        android:layout_width="65dp"
+        android:layout_height="90dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/yizhu_hedui_leixing_shape3"
+        android:button="@null"
+        android:clickable="true" />
+
+
+    <TextView
+        android:id="@+id/yz_hd_ren_check_box1"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="@color/touse559bec"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/yz_shuxue_xuanzhong_check_box"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:background="@drawable/yz_hd_miao_bian_shape"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@+id/yizhu_hedui_ren_lv_item_zhuangtai_imgv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/xian"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:src="@mipmap/icon_stop" />
+        <TextView
+            android:id="@+id/hz_yz_zhuangtai_icon_tv"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="1/4"
+            android:textColor="#fff"
+            android:textSize="26sp"
+            android:visibility="gone" />
+    <ImageView
+        android:id="@+id/yizhu_hedui_ren_lv_item_check_imgv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/xian"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:src="@mipmap/icon_select"
+        android:visibility="gone" />
+    <View
+        android:id="@+id/xian1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="69dp"
+        android:background="#ddd" />
+    <View
+        android:layout_width="83dp"
+        android:layout_height="83dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/xian"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/hz_xuxian_shape"
+        android:layerType="software" />
+    <TextView
+        android:id="@+id/yizhu_hedui_ren_lv_item_zhuangtai_tv"
+
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+       android:gravity="center"
+        android:layout_marginTop="71dp"
+        android:text="未核对"
+        android:textColor="#559bec"
+        android:textSize="12sp" />
+    </RelativeLayout>
+</LinearLayout>

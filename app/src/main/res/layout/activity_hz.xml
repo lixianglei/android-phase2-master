@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#888"
+    tools:context="com.ge.med.mobile.nursing.ui.activity.HZActivity">
+
+    <TextView
+        android:id="@+id/hz_biao_qian_bg_tv"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/login_edt_shape" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/hz_ll"
+        android:background="#888"
+        android:orientation="vertical">
+
+        <include layout="@layout/biao_ti_lan_item" />
+
+        <include layout="@layout/patient_info_pannel" />
+
+
+        <com.ge.med.mobile.nursing.ui.view.MyViewPager
+            android:id="@+id/hz_vp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/hz_ll"
+            android:layout_below="@+id/hz_biao_qian_bg_tv"
+            android:layout_centerInParent="true"
+            android:textColor="#0ff"
+            android:textSize="80sp" />
+
+    </LinearLayout>
+<View
+    android:layout_width="match_parent"
+    android:background="#ededed"
+    android:layout_above="@+id/hz_ll"
+    android:layout_height="1dp"/>
+    <LinearLayout
+        android:id="@+id/hz_ll"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:background="#fff"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/hz_ll_yz_tv"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/icon_orders_pressed"
+            android:gravity="center_horizontal"
+            android:text="医嘱" />
+
+        <TextView
+            android:id="@+id/hz_ll_pg_tv"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/icon_assess_normal"
+            android:gravity="center_horizontal"
+            android:text="评估" />
+
+        <TextView
+            android:id="@+id/hz_ll_tz_tv"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/icon_signs_normal"
+            android:gravity="center_horizontal"
+            android:text="体征" />
+
+        <TextView
+            android:id="@+id/hz_ll_jl_tv"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:drawableTop="@mipmap/icon_record_normal"
+            android:gravity="center_horizontal"
+            android:text="记录" />
+    </LinearLayout>
+    <include layout="@layout/yi_zhu_xuan_xiang_includ" />
+</RelativeLayout>

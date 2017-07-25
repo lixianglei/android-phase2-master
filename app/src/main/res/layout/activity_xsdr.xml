@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#888"
+    tools:context="com.ge.med.mobile.nursing.ui.activity.XSDRActivity">
+    <TextView
+        android:id="@+id/zhanweizhi"
+        android:layout_width="match_parent"
+        android:layout_height="75dp" />
+
+    <TextView
+        android:id="@+id/xsdr_sj_tv"
+        android:layout_below="@+id/zhanweizhi"
+        android:text="2016/11/11"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <ListView
+        android:layout_below="@+id/xsdr_sj_tv"
+        android:id="@+id/xsdr_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:divider="#00aaaaaa"
+        android:dividerHeight="5dp"></ListView>
+
+    <include layout="@layout/biao_ti_lan_item"/>
+
+</RelativeLayout>

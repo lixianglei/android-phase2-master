@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/login_edt_shape"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/shu_xue_inculde_tv01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="3dp"
+            android:text="预输血期： 2016-10-20"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/shu_xue_inculde_tv02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="3dp"
+            android:text="血型： B+"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/shu_xue_inculde_tv03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="3dp"
+            android:text="预定输血品种： 悬浮红细胞"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/shu_xue_inculde_tv04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="3dp"
+            android:text="预输血量： 2.0u"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/shu_xue_inculde_tv05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="3dp"
+            android:text="是否需要交叉配血： 是"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/shu_xue_inculde_tv06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="3dp"
+            android:text="试管类别： 紫色"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/shu_xue_inculde_tv07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="3dp"
+            android:text="试管编号： 464848512265"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/yz_shuxue_xuanzhong_check_box"
+        android:layout_width="match_parent"
+        android:layout_height="268dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/jiao_ban_xuan_ze_selector"
+        android:button="@null"
+        android:clickable="true" />
+
+    <ImageView
+        android:id="@+id/yz_shuxue_xuanzhong_check_imgv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:src="@mipmap/icon_select"
+        android:visibility="gone" />
+
+</RelativeLayout>

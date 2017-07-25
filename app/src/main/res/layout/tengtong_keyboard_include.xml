@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pain_keybaord_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/vital_pain_tv"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lines="1"
+        android:layout_gravity="center_horizontal"
+        android:maxLength="10"
+        android:layout_marginTop="5dp"
+        android:text=""
+        android:textSize="45sp" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ddd"
+        android:textSize="45sp" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/tengtong_lianpu" />
+    <include
+        layout="@layout/vital_pain_keyboard"/>
+    <Button
+        android:id="@+id/bt_fuyao"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp"
+        android:visibility="visible"
+        android:background="@drawable/ti_zheng_xiaojianpan_bt_selater"
+        android:text="服用止痛药"
+        android:textColor="#5f5f5f"
+        android:textSize="20sp" />
+</LinearLayout>

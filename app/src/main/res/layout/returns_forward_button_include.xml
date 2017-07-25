@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ti_zheng_duo_ren_bt_ll"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:layout_alignParentBottom="true"
+    android:background="#ddd"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/ti_zheng_duo_ren_back_bt"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/ti_zheng_duo_ren_bt_selater"
+        android:drawableLeft="@mipmap/icon_choose3"
+        android:gravity="center"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:text="返回"
+        android:textColor="#9b9b9b"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/ti_zheng_duo_ren_baocun_bt"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/ti_zheng_duo_ren_bt_selater1"
+        android:drawableRight="@mipmap/icon_choose2"
+        android:gravity="center"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:text="保存"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+</LinearLayout>

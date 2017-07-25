@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#888"
+    tools:context="com.ge.med.mobile.nursing.ui.activity.JiaoBanSJActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/jiaoban_sj_returns_forward_button_include"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <include layout="@layout/biao_ti_lan_item" />
+
+        <include layout="@layout/patient_info_pannel" />
+
+        <TextView
+            android:id="@+id/drtz_sj_imgv"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@null"
+            android:gravity="center"
+            android:text="本次收集时间"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/include_ll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:orientation="vertical">
+            <include layout="@layout/shi_jian_xuan_ze_include" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/jiaoban_sj_returns_forward_button_include"
+        layout="@layout/returns_forward_button_include"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

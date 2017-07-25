@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_title_bj"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:background="#ddd"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    android:orientation="horizontal"
+    android:paddingTop="30dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/my_tv_title_left"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:scaleType="center"
+            android:src="@mipmap/fan_hui" />
+
+        <TextView
+            android:id="@+id/my_tv_title_center"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lines="1"
+            android:text="肝胆外科一病区"
+            android:textColor="#5e5e5e"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imgv_title_right"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/my_tv_title_center"
+            android:layout_alignParentRight="true"
+            android:paddingRight="10dp"
+            android:scaleType="fitEnd"
+            android:src="@mipmap/icon_rightbar_black" />
+
+        <TextView
+            android:id="@+id/my_tv_title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/my_tv_title_center"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="2dp"
+            android:layout_toLeftOf="@+id/imgv_title_right"
+            android:gravity="bottom"
+            android:text="林晓梅"
+            android:textSize="14sp" />
+    </RelativeLayout>
+</RelativeLayout>

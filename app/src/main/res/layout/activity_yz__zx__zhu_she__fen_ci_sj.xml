@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#888"
+    tools:context="com.ge.med.mobile.nursing.ui.activity.YZ_ZX_ZhuShe_FenCiActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+        <include layout="@layout/biao_ti_lan_item"/>
+        <include layout="@layout/yi_zhu_tou_tiao_mu_include"/>
+        <TextView
+            android:id="@+id/drtz_sj_imgv"
+            android:gravity="center"
+            android:background="@null"
+            android:text="设置分次间隔时间"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"/>
+        <include layout="@layout/ti_zheng_xiaojianpan_include"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:background="#fff"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+       <Button
+           android:layout_alignParentBottom="true"
+           android:id="@+id/yz_zx_zhushe_fenci_baocun_bt"
+           android:layout_width="match_parent"
+           android:gravity="center"
+           android:background="@drawable/ti_zheng_duo_ren_bt_selater1"
+           android:textColor="#fff"
+           android:textSize="18sp"
+           android:text="保存间隔时间"
+           android:layout_height="45dp" />
+
+
+</RelativeLayout>

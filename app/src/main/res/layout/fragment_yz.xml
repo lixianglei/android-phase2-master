@@ -1,0 +1,22 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ge.med.mobile.nursing.utils.refresh.SpringView
+        android:id="@+id/rl_modulename_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.ge.med.mobile.nursing.ui.fragment.YZFragment">
+    <ListView
+        android:id="@+id/hz_yz_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:divider="#00aaaaaa"
+        android:dividerHeight="5dp"></ListView>
+
+</com.ge.med.mobile.nursing.utils.refresh.SpringView>
+
+</LinearLayout>

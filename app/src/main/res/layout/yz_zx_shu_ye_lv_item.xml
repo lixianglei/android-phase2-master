@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="85dp"
+    android:background="#888"
+    android:id="@+id/hz_yz_frag_lv_item_rl"
+>
+    <TextView
+        android:id="@+id/hz_yz_frag_lv_bg_tv"
+        android:background="@drawable/login_edt_shape"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="86dp" />
+    <TextView
+        android:id="@+id/xunshi_yichang_bg_tv"
+        android:background="@drawable/xunshi_yichang_shape"
+        android:layout_marginRight="5dp"
+        android:visibility="gone"
+        android:layout_marginLeft="60dp"
+        android:layout_alignBottom="@+id/hz_yz_frag_lv_bg_tv"
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/hz_yz_frag_lv_sj_tv"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:layout_width="60dp"
+        android:text="17:00"
+        android:layout_height="85dp" />
+    <TextView
+        android:id="@+id/hz_yz_frag_lv_bt_tv"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:text="正常"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/yz_zx_shu_ye_lv_item_disu_tv"
+        android:textSize="12sp"
+        android:text="滴速："
+        android:textColor="#adadad"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="220dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/yz_zx_shu_ye_lv_item_shiruliang_tv"
+        android:textSize="12sp"
+        android:text="实入量："
+        android:textColor="#adadad"
+        android:layout_marginTop="35dp"
+        android:layout_alignRight="@+id/yz_zx_shu_ye_lv_item_disu_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/yz_zx_shu_ye_lv_item_disu_zhi_tv"
+        android:textSize="18sp"
+        android:text="0"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/se559bec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/yz_zx_shu_ye_lv_item_disu_tv"/>
+    <TextView
+        android:id="@+id/yz_zx_shu_ye_lv_item_shiruliang_zhi_tv"
+        android:textSize="18sp"
+        android:text="0"
+        android:textColor="@color/se559bec"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="31dp"
+        android:layout_toRightOf="@id/yz_zx_shu_ye_lv_item_shiruliang_tv"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/yz_zx_shu_ye_lv_item_disu_danwei_tv"
+        android:textSize="18sp"
+        android:text="滴/分"
+        android:layout_marginLeft="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+       android:layout_toRightOf="@+id/yz_zx_shu_ye_lv_item_disu_zhi_tv"/>
+    <TextView
+        android:id="@+id/yz_zx_shu_ye_lv_item_shiruliang_danwei_tv"
+        android:textSize="18sp"
+        android:text="ml"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="31dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:layout_toRightOf="@+id/yz_zx_shu_ye_lv_item_shiruliang_zhi_tv" />
+    <TextView
+        android:id="@+id/hz_yz_frag_lv_xian_tv"
+        android:background="#88dddddd"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="60dp"
+        android:layout_alignTop="@+id/hz_yz_pg_ll"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <LinearLayout
+        android:id="@+id/hz_yz_pg_ll"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/hz_yz_frag_lv_bt_tv">
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/hz_yz_zhuangtai_tv"
+        android:text="已执行"
+        android:textColor="#559bec"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_alignBottom="@+id/hz_yz_pg_tv3"
+        android:layout_alignRight="@+id/hz_yz_frag_lv_bg_tv"
+        android:layout_alignEnd="@+id/hz_yz_frag_lv_bg_tv" />
+
+    <TextView
+        android:layout_marginTop="3dp"
+        android:id="@+id/hz_yz_pg_tv3"
+        android:layout_width="22dp"
+        android:layout_height="16dp"
+        android:background="@drawable/sy_hljb_pg_shape_1"
+        android:gravity="center"
+        android:text="@string/diedao"
+        android:textColor="#adadad"
+        android:textSize="12sp"
+        android:layout_below="@+id/hz_yz_frag_lv_xian_tv"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/hz_yz_pg_tv1"
+        android:layout_width="22dp"
+        android:layout_height="16dp"
+        android:background="@drawable/sy_hljb_pg_shape_1"
+        android:gravity="center"
+        android:text="@string/diedao"
+        android:textColor="#adadad"
+        android:textSize="12sp"
+        android:layout_alignTop="@+id/hz_yz_pg_tv3"
+        android:layout_alignLeft="@+id/hz_yz_frag_lv_bt_tv"
+        android:layout_alignStart="@+id/hz_yz_frag_lv_bt_tv" />
+
+
+</RelativeLayout>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hz_yz_frag_lv_item_rl"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/yz_hd_lx_sj_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/yz_hd_lx_zhanweizhi"
+        android:layout_marginTop="-5dp"
+        android:gravity="center"
+        android:text="2016/10/13"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp">
+
+        <TextView
+            android:id="@+id/hz_yz_frag_lv_bg_tv"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/login_edt_shape" />
+
+        <TextView
+            android:id="@+id/hz_yz_frag_lv_sj_tv"
+            android:layout_width="65dp"
+            android:layout_height="85dp"
+            android:gravity="center"
+            android:text="17:00"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/hz_yz_frag_lv_bt_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="注射用复方甘草酸酐(石粉)"
+            android:textSize="18sp"
+            android:textColor="#FF767676" />
+
+        <TextView
+            android:id="@+id/hz_yz_frag_lv_beizhu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hz_yz_frag_lv_bt_tv"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="8dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lines="1"
+            android:maxLength="10"
+            android:text="需双人确认："
+            android:textColor="#9b9b9b"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/hz_yz_frag_lv_shuangren1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hz_yz_frag_lv_bt_tv"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@+id/hz_yz_frag_lv_beizhu"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lines="1"
+            android:maxLength="18"
+            android:text="1.林晓梅/"
+            android:textColor="#9b9b9b"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:id="@+id/hz_yz_frag_lv_xian_tv"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/hz_yz_frag_lv_shuangren1"
+            android:layout_marginLeft="65dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#88dddddd" />
+
+        <LinearLayout
+            android:id="@+id/hz_yz_pg_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hz_yz_frag_lv_shuangren1"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/hz_yz_pg_tv1"
+                android:layout_width="22dp"
+                android:layout_height="16dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/sy_hljb_pg_shape_1"
+                android:gravity="center"
+                android:text="@string/diedao"
+                android:textColor="#adadad"
+
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/hz_yz_pg_tv2"
+                android:layout_width="22dp"
+                android:layout_height="16dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/sy_hljb_pg_shape_1"
+                android:gravity="center"
+                android:text="@string/diedao"
+                android:textColor="#adadad"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/hz_yz_pg_tv3"
+                android:layout_width="22dp"
+                android:layout_height="16dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/sy_hljb_pg_shape_1"
+                android:gravity="center"
+                android:text="@string/diedao"
+                android:textColor="#adadad"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/hz_yz_pg_tv4"
+                android:layout_width="22dp"
+                android:layout_height="16dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/sy_hljb_pg_shape_1"
+                android:gravity="center"
+                android:text="@string/diedao"
+                android:textColor="#adadad"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/hz_yz_zhuangtai_imgv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/icon_stop" />
+
+        <TextView
+            android:id="@+id/hz_yz_zhuangtai_icon_tv"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="1/4"
+            android:textColor="#fff"
+            android:textSize="26sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/hz_yz_zhuangtai_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/hz_yz_frag_lv_shuangren1"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="19dp"
+            android:layout_marginTop="9dp"
+            android:text="未执行"
+            android:textColor="#559bec"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/yz_shuxue_xuanzhong_check_box"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/yz_hd_miao_bian_shape"
+            android:visibility="gone" />
+    </RelativeLayout>
+</LinearLayout>

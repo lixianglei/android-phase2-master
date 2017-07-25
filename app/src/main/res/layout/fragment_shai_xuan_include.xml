@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shai_xuan_include_ll"
+    android:layout_width="match_parent"
+    android:visibility="gone"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/shai_xuan_include_kongbai_tv"
+        android:layout_width="0dp"
+        android:layout_weight="19"
+        android:background="#44000000"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:background="#fff"
+        android:layout_width="0dp"
+        android:layout_weight="12"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+    <ImageView
+        android:id="@+id/shai_xuan_include_erweima_imgv"
+
+        android:layout_marginTop="10dp"
+       android:layout_gravity="center_horizontal"
+        android:layout_width="70dp"
+        android:layout_height="70dp" />
+        <TextView
+            android:id="@+id/shai_xuan_include_username_tv"
+            android:text="林晓梅"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/shai_xuan_include_user_level_tv"
+            android:text="  "
+            android:gravity="center"
+            android:textSize="12sp"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/shai_xuan_include_userid_tv"
+            android:text="SG20170101"
+            android:textColor="#aaa"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:background="#eee"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <LinearLayout
+            android:id="@+id/shai_xuan_include_all_tv_ll"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+        <TextView
+            android:text="全部患者"
+            android:paddingLeft="10dp"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:layout_width="95dp"
+            android:layout_height="40dp" />
+            <TextView
+                android:id="@+id/shai_xuan_include_all_tv"
+                android:textStyle="bold"
+                android:text="0"
+                android:paddingLeft="10dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+        </LinearLayout>
+
+        <TextView
+            android:background="#eee"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <LinearLayout
+            android:id="@+id/shai_xuan_include_my_tv_ll"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="我的患者"
+                android:paddingLeft="10dp"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:layout_width="95dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:id="@+id/shai_xuan_include_my_tv"
+                android:text="0"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:background="#eee"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <LinearLayout
+            android:id="@+id/shai_xuan_include_one_tv_ll"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="一级护理"
+                android:paddingLeft="10dp"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:layout_width="95dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:id="@+id/shai_xuan_include_one_tv"
+                android:textStyle="bold"
+                android:text="0"
+                android:paddingLeft="10dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+        </LinearLayout>
+
+        <TextView
+            android:background="#eee"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <LinearLayout
+            android:id="@+id/shai_xuan_include_two_tv_ll"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="二级护理"
+                android:paddingLeft="10dp"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:layout_width="95dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:id="@+id/shai_xuan_include_two_tv"
+                android:text="0"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:background="#eee"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+        <LinearLayout
+            android:id="@+id/shai_xuan_include_three_tv_ll"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="三级护理"
+                android:paddingLeft="10dp"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:layout_width="95dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:id="@+id/shai_xuan_include_three_tv"
+                android:text="0"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+        </LinearLayout>
+
+        <TextView
+            android:background="#eee"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <LinearLayout
+            android:id="@+id/shai_xuan_include_te_tv_ll"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="特护"
+                android:paddingLeft="10dp"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:layout_width="95dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:id="@+id/shai_xuan_include_te_tv"
+                android:text="0"
+                android:paddingLeft="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+        </LinearLayout>
+
+        <TextView
+            android:background="#eee"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <LinearLayout
+            android:id="@+id/shai_xuan_include_chuang_tv"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <TextView
+                android:text="床号 "
+                android:paddingLeft="10dp"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+            <ImageView
+                android:id="@+id/shai_xuan_include_chuang_imgv"
+                android:src="@mipmap/dao"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/shai_xuan_include_baise_tv"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <TextView
+            android:id="@+id/shai_xuan_include_shezhi_xian"
+            android:background="#eee"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <TextView
+            android:id="@+id/shai_xuan_include_shezhi_tv"
+            android:drawableLeft="@mipmap/icon_set"
+            android:text="设置"
+            android:paddingLeft="10dp"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/shai_xuan_include_tuichu_xian"
+            android:background="#eee"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+        <TextView
+            android:id="@+id/shai_xuan_include_tui_tv"
+            android:drawableLeft="@mipmap/icon_quit"
+            android:text="退出"
+            android:paddingLeft="10dp"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+    </LinearLayout>

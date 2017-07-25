@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ge.med.mobile.nursing.ui.fragment.PGFragment">
+
+    <TextView
+        android:id="@+id/xin_jian_pg_tv"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/login_bt_slt"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:src="@mipmap/jia" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="新建评估"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/history_pg_tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/xin_jian_pg_tv"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="历史评估"
+        android:textColor="#fff" />
+
+    <ListView
+        android:id="@+id/hz_lspg_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/xin_jian_pg_tv"
+        android:layout_marginTop="40dp"
+        android:divider="#00aaaaaa"
+        android:dividerHeight="8dp"></ListView>
+
+
+</RelativeLayout>

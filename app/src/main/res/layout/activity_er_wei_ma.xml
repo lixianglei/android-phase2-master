@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.ge.med.mobile.nursing.ui.activity.ErWeiMaActivity">
+
+    <include layout="@layout/biao_ti_lan_item" />
+
+    <ImageView
+        android:id="@+id/erweima_imgv"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/erweima_bianhao_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/erweima_imgv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="SG20170101"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/user_name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/user_level_tv"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="林晓梅"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/user_level_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/erweima_bianhao_tv"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="  "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/erweima_keshi_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/erweima_yiyuan_tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="- 血管外科 -"
+        android:textColor="#888"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/erweima_yiyuan_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/erweima_imgv"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="北京大学首钢医院"
+        android:textColor="#888"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

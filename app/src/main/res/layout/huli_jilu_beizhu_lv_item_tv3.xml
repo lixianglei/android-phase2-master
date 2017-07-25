@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/huli_jilu_beizhu_lv_item_tv3_edt"
+        android:layout_width="match_parent"
+        android:paddingBottom="20dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="10dp"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:paddingRight="8dp"
+        android:background="@drawable/miaobian_lanse"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

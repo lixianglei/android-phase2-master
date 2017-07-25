@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/login_edt_shape">
+
+        <TextView
+            android:id="@+id/xsdr_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="护士 孙艺珍 2016-10-24 16:00"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/xsdr_title_tv"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="70dp"
+            android:background="#ddd" />
+
+        <TextView
+            android:id="@+id/xsdr_nei_rong_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/xsdr_title_tv"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="心血管系统评估"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/xsdr_de_fen_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/xsdr_nei_rong_tv"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="评估得分： 75"
+            android:textColor="#adadad"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/xsdr_jie_guo_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/xsdr_de_fen_tv"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="评估结果： 可能有很多字，可能有很多字，可能有很多字，"
+            android:textColor="#adadad"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/xsdr_jie_guo_tv"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:text="已完成道题/共道题"
+            android:textColor="#adadad"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/hu_li_ji_bie_icon_imgv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="35dp"
+            android:src="@mipmap/icon_two"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/img_preview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@mipmap/ic_preview" />
+
+    </RelativeLayout>
+</RelativeLayout>

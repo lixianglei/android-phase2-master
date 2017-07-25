@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#888"
+    android:orientation="vertical"
+    tools:context="com.ge.med.mobile.nursing.ui.activity.YZ_ZX_ShuYe_HuanYeActivity">
+
+    <include layout="@layout/biao_ti_lan_item" />
+
+    <include layout="@layout/yi_zhu_tou_tiao_mu_include" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/yz_zx_zhu_she_xiang_qing_bt"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/login_bt_slt"
+            android:text="查看药品详情"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+        <TextView
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:text="核对新液体"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_below="@+id/yz_zx_zhu_she_xiang_qing_bt"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:id="@+id/xinyeti_xinxi_tv"
+            android:text="新液体信息新液体信息新液体信息新液体信息新液体信息"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:textSize="18sp"
+            android:lines="1"
+            android:paddingRight="45dp"
+            android:ellipsize="end"
+            android:paddingLeft="15dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/yz_zx_zhu_she_xiang_qing_bt"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/login_edt_shape" />
+
+        <ImageView
+            android:id="@+id/xinyeti_xinxi_imgv"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:src="@mipmap/icon_check"
+            android:layout_alignParentRight="true"
+            android:textSize="18sp"
+            android:paddingLeft="15dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/yz_zx_zhu_she_xiang_qing_bt"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/login_edt_shape" />
+
+        <LinearLayout
+            android:id="@+id/yz_zx_zhu_she_bt_ll"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/yz_zx_zhu_she_beizhu_bt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/ti_zheng_duo_ren_bt_selater"
+                android:gravity="center"
+                android:text="备注"
+                android:textColor="@color/abc_secondary_text_material_light"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/yz_zx_zhu_she_yichang_bt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/ti_zheng_duo_ren_bt_selater"
+                android:gravity="center"
+                android:text="异常"
+                android:textColor="@color/abc_secondary_text_material_light"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/yz_zx_zhu_she_next_bt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ti_zheng_duo_ren_bt_selater1"
+                android:gravity="center"
+                android:text="下一步"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

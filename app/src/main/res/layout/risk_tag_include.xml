@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/hz_pg_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hz_jiben_xinxi_tv"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/hz_pg_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:tag="patient_assess_tag1"
+            android:textColor="#adadad"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/hz_pg_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:tag="patient_assess_tag2"
+            android:textColor="#adadad"
+
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/hz_pg_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:tag="patient_assess_tag3"
+            android:textColor="#adadad"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/hz_pg_tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:tag="patient_assess_tag4"
+            android:textColor="#adadad"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/hz_pg_tv5"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:tag="patient_assess_tag5"
+            android:textColor="#adadad"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/hz_pg_tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:tag="patient_assess_tag6"
+            android:textColor="#adadad"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/hz_pg_tv7"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:tag="patient_assess_tag7"
+            android:textColor="#adadad"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/hz_pg_tv8"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:tag="patient_assess_tag8"
+            android:textColor="#adadad"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/hz_pg_tv9"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:tag="patient_assess_tag9"
+            android:textColor="#adadad"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/hz_pg_tv10"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:tag="patient_assess_tag10"
+            android:textColor="#adadad"
+            android:textSize="12sp" />
+    </LinearLayout>
+</RelativeLayout>

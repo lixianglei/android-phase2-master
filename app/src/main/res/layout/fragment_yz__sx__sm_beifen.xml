@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ge.med.mobile.nursing.ui.fragment.YZ_SX_SMFragment">
+
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/login_edt_shape"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/shu_xue_inculde_tv01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="8dp"
+                    android:text="出库时间： 2016-10-20 16:00"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/shu_xue_inculde_tv02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="8dp"
+                    android:text="血袋血型： B型"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/shu_xue_inculde_tv03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="8dp"
+                    android:text="血袋RH： 阳性"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/shu_xue_inculde_tv04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="8dp"
+                    android:text="血袋类型名称： 悬浮红细胞"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/shu_xue_inculde_tv05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="8dp"
+                    android:text="血量： 2.0u"
+                    android:textColor="@color/abc_secondary_text_material_light"
+                    android:textSize="20sp" />
+            </LinearLayout>
+          <include layout="@layout/shuxue_hedui_include"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

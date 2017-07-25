@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.3'
+    defaultConfig {
+        applicationId "com.ge.med.mobile.nursing"
+        minSdkVersion 17
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':library')
+    compile files('libs/commons-codec-1.10.jar')
+    compile(name: 'MiBcrLib', ext: 'aar')
+    // 内存检测
+    /*debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5.1'
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.1'
+    testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.1'*/
+    compile 'com.zhy:okhttputils:2.6.2'
+    compile 'com.zhy:okhttputils:2.6.2'
+    compile 'com.android.support:support-v4:25.0.0'
+    compile 'com.google.zxing:core:3.2.1'
+    compile 'cn.bingoogolapple:bga-qrcodecore:1.1.4@aar'
+    compile 'cn.bingoogolapple:bga-zxing:1.1.4@aar'
+    compile 'com.android.support:appcompat-v7:25.0.0'
+    compile 'com.github.zzz40500:android-shapeLoadingView:1.0.3.2'
+    compile 'com.android.support:recyclerview-v7:25.0.1'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'cn.bingoogolapple:bga-refreshlayout:1.1.6@aar'
+    compile 'com.squareup.okhttp3:mockwebserver:3.4.1'
+    compile 'com.squareup.okhttp3:okhttp-ws:3.4.2'
+    compile 'de.greenrobot:eventbus:2.4.0'
+    compile 'com.github.bumptech.glide:glide:3.5.2'
+    compile 'com.github.razerdp:BasePopup:v1.6.2'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+}

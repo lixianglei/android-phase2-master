@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vital_keyboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <TextView
+        android:id="@+id/ti_zheng_zhi"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lines="1"
+        android:maxLength="7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="36.5"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/ti_zheng_dan_wei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ti_zheng_zhi"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/ti_zheng_zhi"
+        android:text="℃"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:layout_below="@+id/ti_zheng_zhi"
+        android:layout_centerHorizontal="true"
+        android:background="#ddd"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ti_zheng_zhi"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/diyi_pai_bt_ll_1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#ddd"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/bt_1_1"
+                android:text="36."
+                android:textSize="20sp"
+                android:textColor="#5f5f5f"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/ti_zheng_xiaojianpan_bt_selater"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="45dp" />
+            <Button
+                android:text="37."
+                android:textSize="20sp"
+                android:textColor="#5f5f5f"
+                android:id="@+id/bt_1_2"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/ti_zheng_xiaojianpan_bt_selater"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="45dp" />
+            <Button
+                android:text="38."
+                android:textSize="20sp"
+                android:textColor="#5f5f5f"
+                android:id="@+id/bt_1_3"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/ti_zheng_xiaojianpan_bt_selater"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="45dp" />
+            <Button
+                android:text="39."
+                android:textSize="20sp"
+                android:textColor="#5f5f5f"
+                android:id="@+id/bt_1_4"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/ti_zheng_xiaojianpan_bt_selater"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="45dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/diyi_pai_bt_ll_2"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#ddd"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/bt_2_1"
+                android:text="1"
+                android:textSize="20sp"
+                android:textColor="#5f5f5f"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/ti_zheng_xiaojianpan_bt_selater"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="45dp" />
+            <Button
+                android:text="2"
+                android:textSize="20sp"
+                android:textColor="#5f5f5f"
+                android:id="@+id/bt_2_2"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/ti_zheng_xiaojianpan_bt_selater"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="45dp" />
+            <Button
+                android:text="3"
+                android:textSize="20sp"
+                android:textColor="#5f5f5f"
+                android:id="@+id/bt_2_3"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/ti_zheng_xiaojianpan_bt_selater"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="45dp" />
+            <Button
+                android:text="."
+                android:textSize="20sp"
+                android:textColor="#5f5f5f"
+                android:id="@+id/bt_2_4"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/ti_zheng_xiaojianpan_bt_selater"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="45dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/diyi_pai_bt_ll_3"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#ddd"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/bt_3_1"
+                android:text="4"
+                android:textColor="#5f5f5f"
+                android:textSize="20sp"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/ti_zheng_xiaojianpan_bt_selater"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="45dp" />
+            <Button
+                android:text="5"
+                android:textSize="20sp"
+                android:textColor="#5f5f5f"
+                android:id="@+id/bt_3_2"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/ti_zheng_xiaojianpan_bt_selater"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="45dp" />
+            <Button
+                android:text="6"
+                android:textColor="#5f5f5f"
+                android:textSize="20sp"
+                android:id="@+id/bt_3_3"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/ti_zheng_xiaojianpan_bt_selater"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="45dp" />
+            <Button
+                android:text="0"
+                android:textSize="20sp"
+                android:textColor="#5f5f5f"
+                android:id="@+id/bt_3_4"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/ti_zheng_xiaojianpan_bt_selater"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="45dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/diyi_pai_bt_ll_4"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#ddd"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/bt_4_1"
+                android:text="7"
+                android:textSize="20sp"
+                android:textColor="#5f5f5f"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/ti_zheng_xiaojianpan_bt_selater"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="45dp" />
+            <Button
+                android:text="8"
+                android:textSize="20sp"
+                android:textColor="#5f5f5f"
+                android:id="@+id/bt_4_2"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/ti_zheng_xiaojianpan_bt_selater"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="45dp" />
+            <Button
+                android:text="9"
+                android:textSize="20sp"
+                android:textColor="#5f5f5f"
+                android:id="@+id/bt_4_3"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/ti_zheng_xiaojianpan_bt_selater"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="45dp" />
+            <ImageButton
+                android:src="@mipmap/icon_delete"
+                android:textColor="#5f5f5f"
+                android:id="@+id/bt_4_4"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/ti_zheng_xiaojianpan_bt_selater"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="45dp" />
+
+        </LinearLayout>
+        <RadioGroup
+
+            android:id="@+id/diyi_pai_bt_ll_5"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#ddd"
+            android:orientation="horizontal">
+            <RadioButton
+                android:gravity="center"
+                android:button="@null"
+                android:checked="false"
+                android:id="@+id/bt_5_1"
+                android:text="口温"
+                android:textSize="18sp"
+                android:textColor="#5f5f5f"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/radiobutton_bgcolor_selector"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="45dp" />
+            <RadioButton
+                android:gravity="center"
+                android:button="@null"
+                android:text="腋温"
+                android:textSize="18sp"
+                android:textColor="#5f5f5f"
+                android:id="@+id/bt_5_2"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/radiobutton_bgcolor_selector"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="45dp" />
+            <RadioButton
+                android:gravity="center"
+                android:button="@null"
+                android:text="肛温"
+                android:textSize="18sp"
+                android:textColor="#5f5f5f"
+                android:id="@+id/bt_5_3"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/radiobutton_bgcolor_selector"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="45dp" />
+            <RadioButton
+                android:gravity="center"
+                android:button="@null"
+                android:text="物理降温"
+                android:textColor="#5f5f5f"
+                android:textSize="18sp"
+                android:id="@+id/bt_5_4"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/radiobutton_bgcolor_selector"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="45dp" />
+
+        </RadioGroup>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ge.med.mobile.nursing.ui.fragment.JLFragment">
+
+    <ListView
+        android:id="@+id/hz_ji_lu_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/xin_jian_tz_tv"
+        android:layout_marginTop="10dp"
+        android:divider="#00aaaaaa"
+        android:dividerHeight="8dp"></ListView>
+</FrameLayout>

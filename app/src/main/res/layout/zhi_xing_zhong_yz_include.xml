@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#888"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/jiaoban_churuliang_sj_tv"
+            android:gravity="center"
+            android:background="@null"
+            android:text="本班次出入量总量"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"/>
+
+            <include layout="@layout/jiaoban_churuliang_item"/>
+
+        <TextView
+            android:id="@+id/drtz_sj_imgv"
+            android:gravity="center"
+            android:background="@null"
+            android:text="交班记录"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"/>
+        <Button
+            android:id="@+id/jiaoban_teshushijian_bt"
+            android:gravity="center"
+            android:background="@drawable/login_bt_slt"
+            android:text="特殊事件(选填)"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"/>
+        <EditText
+
+            android:id="@+id/jiaoban_jilu_edt"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/login_edt_shape"
+            android:hint="请在此输入交班记录..."
+            android:textSize="14sp"
+            android:maxLength="200"
+            android:textColorHint="#dcdcdc"
+            android:gravity="start"
+            android:padding="5dp"
+            android:layout_height="90dp" />
+        <TextView
+            android:id="@+id/drtz_tizheng_imgv"
+            android:gravity="center"
+            android:background="@null"
+            android:text="最后一次生命体征"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"/>
+  <include layout="@layout/duoren_tizheng_lv_item1"/>
+        <TextView
+            android:id="@+id/drtz_yizhu_imgv"
+            android:gravity="center"
+            android:background="@null"
+            android:text="执行中医嘱"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"/>
+
+        <RelativeLayout
+            android:id="@+id/zhi_xing_zhong_yizhu_rl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:background="@drawable/login_edt_shape"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="165dp" />
+            <ImageView
+                android:id="@+id/zhi_xing_zhong_yz_inclued_huli_jibie_imgv"
+                android:layout_width="wrap_content"
+                android:src="@mipmap/icon_two"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/zhi_xing_zhong_yz_inclued_sj_tv"
+                android:layout_width="wrap_content"
+                android:text="2016-10-24 16:00"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/zhi_xing_zhong_yz_inclued_sj_tv"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="10dp"
+                android:background="#ddd" />
+            <TextView
+                android:id="@+id/hz_jiben_xinxi_tv"
+                android:layout_width="wrap_content"
+                android:text="30%泛影葡胺1ml静脉注射30%泛影葡胺1ml静脉注射"
+                android:layout_below="@+id/zhi_xing_zhong_yz_inclued_sj_tv"
+                android:textSize="20sp"
+                android:lines="1"
+                android:ellipsize="end"
+                android:layout_marginRight="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginLeft="20dp"
+                android:id="@+id/hz_pg_ll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hz_jiben_xinxi_tv"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:id="@+id/hz_pg_tv1"
+                    android:layout_width="22dp"
+                    android:layout_height="16dp"
+                    android:background="@drawable/sy_hljb_pg_shape_1"
+                    android:gravity="center"
+                    android:text="@string/diedao"
+                    android:textColor="#adadad"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/hz_pg_tv2"
+                    android:layout_width="22dp"
+                    android:layout_height="16dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/sy_hljb_pg_shape_1"
+                    android:gravity="center"
+                    android:text="@string/diedao"
+                    android:textColor="#adadad"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/hz_pg_tv3"
+                    android:layout_width="22dp"
+                    android:layout_height="16dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/sy_hljb_pg_shape_1"
+                    android:gravity="center"
+                    android:text="@string/diedao"
+                    android:textColor="#adadad"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/hz_pg_tv4"
+                    android:layout_width="22dp"
+                    android:layout_height="16dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/sy_hljb_pg_shape_1"
+                    android:gravity="center"
+                    android:text="@string/diedao"
+                    android:textColor="#adadad"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/hz_ys_zd_tv"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/hz_pg_ll"
+                android:textColor="#9b9b9b"
+                android:layout_marginLeft="20dp"
+                android:text="医生：宋喆    途径：静脉注射"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:id="@+id/hz_gms_tv"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/hz_ys_zd_tv"
+                android:textColor="#9b9b9b"
+                android:text="备注：配合250ml氯化钠注射"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/hz_yz_tu_biao_tv"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="60dp"
+                android:layout_width="wrap_content"
+                android:src="@mipmap/icon_injection"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/hz_yz_shu_weizhixing"
+                android:textColor="#559bec"
+                android:textSize="12sp"
+                android:text="进行中"
+                android:layout_marginTop="3dp"
+                android:layout_below="@+id/hz_yz_tu_biao_tv"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="44dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:id="@+id/zhi_xing_zhong_check_box"
+                android:button="@null"
+                android:background="@drawable/jiao_ban_xuan_ze_selector"
+                android:layout_width="match_parent"
+                android:layout_height="165dp" />
+            <ImageView
+                android:id="@+id/zhi_xing_zhong_check_imgv"
+                android:src="@mipmap/icon_select"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="23dp"
+                android:layout_height="23dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

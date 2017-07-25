@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tizheng_xinxi_rl"
+    android:layout_width="match_parent"
+    android:layout_height="203dp"
+    android:descendantFocusability="blocksDescendants">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="203dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/login_edt_shape">
+
+
+        <ImageView
+            android:id="@+id/duoren_tizheng_imgv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/icon_two" />
+
+        <TextView
+            android:id="@+id/duoren_tizheng_title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="33床 孙尚香 (G0018355)"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/duoren_tizheng_title_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/duoren_tizheng_title_name"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@+id/duoren_tizheng_title_name"
+            android:text="16:00"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/duoren_tizheng_title_name"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:background="#ddd" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/vital_name_tv_1"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#ddd" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/vital_name_tv_3"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#ddd" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/vital_name_tv_5"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#ddd" />
+
+        <TextView
+            android:id="@+id/vital_name_tv_7"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vital_name_tv_5"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:tag="vital_name_tv_7"
+            android:text="体征7"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/vital_value_tv_7"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vital_value_tv_5"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:tag="vital_value_tv_7"
+            android:text="取值7"
+            android:textColor="#9b9b9b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/vital_name_tv_8"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vital_name_tv_6"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:tag="vital_name_tv_8"
+            android:text="体征8"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/vital_value_tv_8"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vital_value_tv_6"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:tag="vital_value_tv_8"
+            android:text="取值8"
+            android:textColor="#9b9b9b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/vital_name_tv_5"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vital_name_tv_3"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:tag="vital_name_tv_5"
+            android:text="体征5"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/vital_value_tv_5"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vital_value_tv_3"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:tag="vital_value_tv_5"
+            android:text="取值5"
+            android:textColor="#9b9b9b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/vital_name_tv_6"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vital_name_tv_4"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:tag="vital_name_tv_6"
+            android:text="体征6"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/vital_value_tv_6"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vital_value_tv_4"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:tag="vital_value_tv_6"
+            android:text="取值6"
+            android:textColor="#9b9b9b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/vital_name_tv_3"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vital_name_tv_1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:tag="vital_name_tv_3"
+            android:text="体征3"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/vital_value_tv_3"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vital_value_tv_1"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:tag="vital_value_tv_3"
+            android:text="取值3"
+            android:textColor="#9b9b9b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/vital_name_tv_4"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vital_name_tv_2"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:tag="vital_name_tv_4"
+            android:text="体征4"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/vital_value_tv_4"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vital_value_tv_2"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:tag="vital_value_tv_4"
+            android:text="取值4"
+            android:textColor="#9b9b9b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/vital_name_tv_1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/duoren_tizheng_title_name"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:tag="vital_name_tv_1"
+            android:text="体征1"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/vital_value_tv_1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/duoren_tizheng_title_name"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:tag="vital_value_tv_1"
+            android:text="取值1"
+            android:textColor="#9b9b9b"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/vital_name_tv_2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/duoren_tizheng_title_name"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:tag="vital_name_tv_2"
+            android:text="体征2"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/vital_value_tv_2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/duoren_tizheng_title_name"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="20dp"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:tag="vital_value_tv_2"
+            android:text="取值2"
+            android:textColor="#9b9b9b"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <CheckBox
+        android:id="@+id/duoren_tizheng_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="203dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/jiao_ban_xuan_ze_selector"
+        android:button="@null"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/duoren_tizheng_check_imgv"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@mipmap/icon_select" />
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/login_edt_shape">
+
+        <CheckBox
+            android:id="@+id/yz_shuxue_xuanzhong_check_box1"
+            android:layout_width="match_parent"
+            android:layout_height="302dp"
+            android:background="@drawable/jiao_ban_xuan_ze_selector"
+            android:button="@null"
+            android:paddingLeft="20dp"
+            android:text="血袋号： 13451012540"
+            android:textColor="@color/abc_secondary_text_material_light"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/yz_shuxue_xuanzhong_check_imgv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:src="@mipmap/icon_select" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/login_edt_shape">
+
+        <CheckBox
+            android:id="@+id/yz_shuxue_xuanzhong_check_box2"
+            android:layout_width="match_parent"
+            android:layout_height="302dp"
+            android:background="@drawable/jiao_ban_xuan_ze_selector"
+            android:button="@null"
+            android:paddingLeft="20dp"
+            android:text="产品号： 13451012540"
+            android:textColor="@color/abc_secondary_text_material_light"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/yz_shuxue_xuanzhong_check_imgv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:src="@mipmap/icon_select" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/login_edt_shape">
+
+        <CheckBox
+            android:id="@+id/yz_shuxue_xuanzhong_check_box3"
+            android:layout_width="match_parent"
+            android:layout_height="302dp"
+            android:background="@drawable/jiao_ban_xuan_ze_selector"
+            android:button="@null"
+            android:paddingLeft="20dp"
+            android:text="双人确认"
+            android:textColor="@color/abc_secondary_text_material_light"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/yz_shuxue_xuanzhong_check_imgv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+
+            android:src="@mipmap/icon_select" />
+    </RelativeLayout>
+</LinearLayout>

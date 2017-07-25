@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/hz_biao_qian_bg_tv"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/login_edt_shape" />
+    <TextView
+        android:id="@+id/hz_sj_bg_tv"
+        android:layout_width="60dp"
+        android:text="17:00"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_height="120dp" />
+    <View
+        android:background="@drawable/hz_xuxian_shape"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="-20dp"
+        android:layerType="software"
+        android:layout_width="120dp"
+        android:layout_height="120dp"/>
+    <TextView
+        android:id="@+id/hz_jiben_xinxi_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:lines="1"
+        android:ellipsize="end"
+        android:paddingRight="35dp"
+        android:text="悬浮红细胞悬浮红细胞悬浮红细胞悬浮红细胞 2.0u"
+        android:textSize="22sp" />
+    <LinearLayout
+        android:id="@+id/hz_pg_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hz_jiben_xinxi_tv"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/hz_pg_tv1"
+            android:layout_width="22dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="70dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:text="@string/diedao"
+            android:textColor="#adadad"
+
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/hz_pg_tv2"
+            android:layout_width="22dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:text="@string/diedao"
+            android:textColor="#adadad"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/hz_pg_tv3"
+            android:layout_width="22dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:text="@string/diedao"
+            android:textColor="#adadad"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/hz_pg_tv4"
+            android:layout_width="22dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:text="@string/diedao"
+            android:textColor="#adadad"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/hz_ys_zd_tv"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/hz_pg_ll"
+        android:textColor="#9b9b9b"
+        android:text="医生：宋喆    途径：静脉滴注"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/hz_gms_tv"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="8dp"
+        android:lines="1"
+        android:ellipsize="end"
+        android:layout_below="@+id/hz_ys_zd_tv"
+        android:textColor="#9b9b9b"
+        android:text="备注：配合250ml氧化钠注射液"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/hz_yz_tu_biao_tv"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:src="@mipmap/icon_blood_transfusion"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/hz_yz_zhuangtai_icon_tv"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="1/4"
+        android:visibility="gone"
+        android:textColor="#fff"
+        android:textSize="26sp" />
+    <TextView
+        android:id="@+id/hz_yz_shu_weizhixing"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/hz_yz_tu_biao_tv"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="10sp"
+        android:textColor="@color/se559bec"
+        android:layout_width="65dp"
+        android:text="待采血"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

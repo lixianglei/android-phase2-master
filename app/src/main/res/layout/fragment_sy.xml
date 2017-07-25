@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:bandroid="http://schemas.android.com/apk/res-auto"
+    android:background="#888"
+    tools:context="com.ge.med.mobile.nursing.ui.fragment.SYFragment">
+
+    <LinearLayout
+        android:id="@+id/sy_hljb_ll"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/hulijibie"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="4dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/teji" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/teji"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="4dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/yiji" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/yiji"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="4dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/erji" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/erji"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="4dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/sanji" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="8dp"
+            android:text="@string/sanji"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/sy_hljb_swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/sy_hljb_ll"
+        android:layout_height="match_parent" >
+        <ListView
+            android:id="@+id/sy_hzlb_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawSelectorOnTop="true"
+            bandroid:background="?android:attr/selectableItemBackground"
+            android:divider="#00aaaaaa"
+            android:dividerHeight="5dp"/>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+<TextView
+    android:id="@+id/click_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+</RelativeLayout>

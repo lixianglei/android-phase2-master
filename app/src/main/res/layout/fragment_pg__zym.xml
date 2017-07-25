@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ge.med.mobile.nursing.ui.fragment.PG_ZYMFragment">
+    <TextView
+        android:id="@+id/biaoti_tv"
+        android:visibility="gone"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/yz_zx_zhu_she_xiang_qing_bt"
+        android:text="查看操作记录"
+        android:visibility="gone"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/login_bt_slt"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <ListView
+        android:id="@+id/ping_gu_zjm_lv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_below="@+id/xin_jian_tz_tv"
+        android:layout_marginTop="10dp"
+        android:divider="#00aaaaaa"
+        android:dividerHeight="5dp"></ListView>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@+id/bt_ll"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="45dp">
+
+    <Button
+        android:id="@+id/yz_hd_ren_fanhui_bt"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="返回"
+        android:paddingLeft="55dp"
+        android:paddingRight="55dp"
+        android:drawableLeft="@mipmap/icon_choose3"
+        android:background="@drawable/ti_zheng_duo_ren_bt_selater"
+        android:layout_marginRight="1dp"
+        android:layout_height="match_parent"
+        android:textColor="@color/abc_secondary_text_material_light" />
+
+    <Button
+        android:id="@+id/yz_shuxue_wancheng_bt"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textColor="#fff"
+        android:background="@drawable/ti_zheng_duo_ren_bt_selater1"
+        android:text="保存"
+        android:layout_height="50dp" />
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="105dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/sy_hljb_hljb_rl"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/sy_hzlb_shape_0" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/sy_hzlb_shape_bai" />
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginRight="-1dp"
+            android:background="@drawable/sy_hzlb_shape_xian" />
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/sy_hzlb_shape_yizhu" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/sy_hljb_ch_ll"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sy_hljb_ch_ll_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="33"
+            android:textColor="#fff"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/chuang"
+            android:textColor="#fff"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/sy_hljb_xm_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/sy_hljb_ch_ll"
+        android:ellipsize="end"
+        android:lines="1"
+        android:maxLength="5"
+        android:text="@string/sunxiangxiang"
+        android:textColor="#5e5e5e"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/sy_hljb_id_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/sy_hljb_xm_tv"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/sy_hljb_xm_tv"
+        android:text="G00188355_33"
+        android:textColor="#adadad"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/sy_hljb_xian"
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:layout_below="@+id/sy_hljb_xm_tv"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/sy_hljb_ch_ll"
+        android:background="#eee" />
+
+    <TextView
+        android:id="@+id/sy_hljb_xbnl_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sy_hljb_xian"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/sy_hljb_ch_ll"
+        android:text="@string/nv_63"
+        android:textColor="#adadad"
+        android:textSize="16sp" />
+    <include
+        layout="@layout/risk_tag_include"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sy_hljb_xbnl_tv"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@+id/sy_hljb_ch_ll" />
+
+    <TextView
+        android:id="@+id/sy_hljb_yz_tv"
+        android:layout_width="65dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text="10"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/sy_hljb_yz_iv"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="#fff"
+        android:gravity="center"
+        android:src="@mipmap/icon_check_gary"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/qianfei_imgv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sy_hljb_id_tv"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/sy_hljb_id_tv"
+        android:src="@mipmap/icon_arrears"
+        android:visibility="gone" />
+<com.ge.med.mobile.nursing.ui.view.SearchGroupView
+    android:id="@+id/huanzhe_xinxi_ll"
+    android:layout_marginLeft="51dp"
+    android:layout_marginRight="69dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sy_hzlb_shape_hui" >
+</com.ge.med.mobile.nursing.ui.view.SearchGroupView>
+
+</RelativeLayout>

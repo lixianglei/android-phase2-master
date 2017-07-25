@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#888"
+    tools:context="com.ge.med.mobile.nursing.ui.activity.YZ_ZX_JianYan_YiChangActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/yz_zx_kou_fu_yao_ll"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <include layout="@layout/biao_ti_lan_item" />
+
+        <include layout="@layout/yi_zhu_tou_tiao_mu_include" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="异常情况"
+            android:textColor="#99ffffff"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/yz_zx_zhu_she_ll1"
+            android:layout_below="@+id/yz_zx_zhu_she_xiang_qing_bt"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+            <CheckBox
+                android:id="@+id/yz_zx_zhu_she_cb1_1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/yichang_bg_shape1"
+                android:layout_height="match_parent"
+                android:textColor="@color/abc_secondary_text_material_light"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/yz_zx_zhu_she_cb1_2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:background="@drawable/yichang_bg_shape2"
+                android:layout_height="match_parent"
+                android:textColor="@color/abc_secondary_text_material_light"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/yz_zx_zhu_she_cb1_3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/yichang_bg_shape3"
+                android:layout_height="match_parent"
+                android:textColor="@color/abc_secondary_text_material_light"
+                android:checked="false" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/yz_zx_zhu_she_ll2"
+            android:layout_below="@+id/yz_zx_zhu_she_ll1"
+            android:orientation="horizontal"
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+            <CheckBox
+                android:id="@+id/yz_zx_zhu_she_cb2_1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/yichang_bg_shape2"
+                android:layout_height="match_parent"
+                android:textColor="@color/abc_secondary_text_material_light"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/yz_zx_zhu_she_cb2_2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:background="@drawable/yichang_bg_shape2"
+                android:layout_height="match_parent"
+                android:textColor="@color/abc_secondary_text_material_light"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/yz_zx_zhu_she_cb2_3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/yichang_bg_shape2"
+                android:layout_height="match_parent"
+                android:textColor="@color/abc_secondary_text_material_light"
+                android:checked="false" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/yz_zx_zhu_she_ll3"
+            android:layout_below="@+id/yz_zx_zhu_she_ll2"
+            android:orientation="horizontal"
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+            <CheckBox
+                android:id="@+id/yz_zx_zhu_she_cb3_1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/yichang_bg_shape2"
+                android:layout_height="match_parent"
+                android:textColor="@color/abc_secondary_text_material_light"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/yz_zx_zhu_she_cb3_2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:background="@drawable/yichang_bg_shape2"
+                android:layout_height="match_parent"
+                android:textColor="@color/abc_secondary_text_material_light"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/yz_zx_zhu_she_cb3_3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/yichang_bg_shape2"
+                android:layout_height="match_parent"
+                android:textColor="@color/abc_secondary_text_material_light"
+                android:checked="false" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/yz_zx_zhu_she_ll4"
+            android:layout_below="@+id/yz_zx_zhu_she_ll3"
+            android:orientation="horizontal"
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+            <CheckBox
+                android:id="@+id/yz_zx_zhu_she_cb4_1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/yichang_bg_shape4"
+                android:layout_height="match_parent"
+                android:textColor="@color/abc_secondary_text_material_light"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/yz_zx_zhu_she_cb4_2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:background="@drawable/yichang_bg_shape2"
+                android:layout_height="match_parent"
+                android:textColor="@color/abc_secondary_text_material_light"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/yz_zx_zhu_she_cb4_3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/yichang_bg_shape5"
+                android:layout_height="match_parent"
+                android:textColor="@color/abc_secondary_text_material_light"
+                android:checked="false" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="患者特殊状态"
+            android:textColor="#99ffffff"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/yz_zx_zhu_she_ll5"
+            android:layout_below="@+id/yz_zx_zhu_she_ll4"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+            <CheckBox
+                android:id="@+id/yz_zx_zhu_she_cb5_1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/yichang_bg_shape1"
+                android:layout_height="match_parent"
+                android:textColor="@color/abc_secondary_text_material_light"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/yz_zx_zhu_she_cb5_2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:background="@drawable/yichang_bg_shape2"
+                android:layout_height="match_parent"
+                android:textColor="@color/abc_secondary_text_material_light"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/yz_zx_zhu_she_cb5_3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/yichang_bg_shape3"
+                android:layout_height="match_parent"
+                android:textColor="@color/abc_secondary_text_material_light"
+                android:checked="false" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/yz_zx_zhu_she_ll6"
+            android:layout_below="@+id/yz_zx_zhu_she_ll5"
+            android:orientation="horizontal"
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+            <CheckBox
+                android:id="@+id/yz_zx_zhu_she_cb6_1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/yichang_bg_shape4"
+                android:layout_height="match_parent"
+                android:textColor="@color/abc_secondary_text_material_light"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/yz_zx_zhu_she_cb6_2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:background="@drawable/yichang_bg_shape2"
+                android:layout_height="match_parent"
+                android:textColor="@color/abc_secondary_text_material_light"
+                android:checked="false" />
+            <CheckBox
+                android:id="@+id/yz_zx_zhu_she_cb6_3"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/yichang_bg_shape5"
+                android:layout_height="match_parent"
+                android:textColor="@color/abc_secondary_text_material_light"
+                android:checked="false" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/yz_zx_kou_fu_yao_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/yz_zx_jian_yan_yi_chang_zanting_bt"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/ti_zheng_duo_ren_bt_selater2"
+            android:text="暂停"
+            android:textColor="@color/abc_secondary_text_material_light"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/yz_zx_jian_yan_yi_chang_zhixing_bt"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/ti_zheng_duo_ren_bt_selater1"
+            android:text="继续执行"
+            android:textColor="#fff" />
+    </LinearLayout>
+</RelativeLayout>

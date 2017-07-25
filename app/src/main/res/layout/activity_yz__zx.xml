@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#888"
+    android:orientation="vertical"
+    tools:context="com.ge.med.mobile.nursing.ui.activity.YZ_ZXActivity">
+    <include layout="@layout/biao_ti_lan_item"/>
+    <include layout="@layout/yi_zhu_tou_tiao_mu_include"/>
+    <FrameLayout
+        android:id="@+id/yi_zhu_zhi_xing_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+        <Button
+            android:id="@+id/yz_shuxue_yichang_bt"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/ti_zheng_duo_ren_bt_selater"
+            android:text="异常"
+            android:layout_height="50dp"
+            android:textColor="@color/abc_secondary_text_material_light" />
+        <Button
+            android:id="@+id/yz_shuxue_wancheng_bt"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:enabled="false"
+            android:background="@drawable/ti_zheng_duo_ren_bt_selater_hui"
+            android:text="开始输血"
+            android:layout_height="50dp" />
+    </LinearLayout>
+</LinearLayout>

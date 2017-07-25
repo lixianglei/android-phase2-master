@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+>
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="130dp"
+       android:layout_marginRight="5dp"
+       android:layout_marginLeft="5dp"
+       android:background="@drawable/login_edt_shape">
+    <TextView
+        android:id="@+id/xsdr_title_tv"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="33床 孙艺珍 (G0018355)  16:00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:background="#ddd"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/xsdr_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <TextView
+        android:id="@+id/xsdr_nei_rong_tv"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/xsdr_title_tv"
+        android:text="悬浮红细胞 2.0u"
+        android:layout_width="240dp"
+        android:layout_height="30dp"
+        android:lines="1"
+        android:ellipsize="end"
+        />
+    <TextView
+        android:background="#ddd"
+        android:layout_below="@+id/xsdr_nei_rong_tv"
+        android:layout_marginTop="25dp"
+        android:layout_width="320dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="1dp" />
+    <ImageView
+        android:id="@+id/xsdr_zhuangtai_imgv"
+        android:src="@mipmap/icon_blood_transfusion"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginRight="30dp"
+    android:layout_marginTop="48dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp" />
+    <TextView
+        android:id="@+id/yi_zhu_zhuangtai_zifu"
+        android:text="执行中"
+        android:textSize="12sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#559bec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/hu_li_ji_bie_icon_imgv"
+        android:src="@mipmap/icon_two"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="35dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+    <LinearLayout
+        android:id="@+id/hz_yz_pg_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/xsdr_nei_rong_tv">
+
+        <TextView
+            android:id="@+id/hz_yz_pg_tv1"
+            android:layout_width="22dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:text="@string/diedao"
+            android:textColor="#adadad"
+
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/hz_yz_pg_tv2"
+            android:layout_width="22dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:text="@string/diedao"
+            android:textColor="#adadad"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/hz_yz_pg_tv3"
+            android:layout_width="22dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:text="@string/diedao"
+            android:textColor="#adadad"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/hz_yz_pg_tv4"
+            android:layout_width="22dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:text="@string/diedao"
+            android:textColor="#adadad"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#00FFFFFF"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="60dp">
+
+    <ImageView
+        android:id="@+id/refresh_footer_img"
+        android:adjustViewBounds="true"
+        android:padding="7dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+</LinearLayout>

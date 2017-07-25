@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/login_edt_shape">
+    <TextView
+        android:id="@+id/shu_xue_inculde_tv01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:text="检测时间： 2016-10-20"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/shu_xue_inculde_tv02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:text="试管编号： 546548942121"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/shu_xue_inculde_tv03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:text="试管类别： 红色"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/shu_xue_inculde_tv04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:text="标本量： 0"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/shu_xue_inculde_tv05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp"
+        android:text="特殊要求： 无"
+        android:maxLines="5"
+        android:ellipsize="end"
+        android:textSize="20sp" />
+</LinearLayout>
+    <CheckBox
+        android:id="@+id/yz_shuxue_xuanzhong_check_box"
+        android:button="@null"
+        android:clickable="true"
+        android:background="@drawable/jiao_ban_xuan_ze_selector"
+        android:layout_width="match_parent"
+        android:layout_height="215dp" />
+    <ImageView
+        android:id="@+id/yz_shuxue_xuanzhong_check_imgv"
+        android:src="@mipmap/icon_select"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+       android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

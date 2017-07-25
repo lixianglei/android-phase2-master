@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ge.med.mobile.nursing.ui.fragment.XuanJiaoXiangQingFragment">
+
+    <TextView
+        android:id="@+id/biaoti_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:background="@drawable/login_edt_shape"
+    android:layout_height="0dp">
+    <TextView
+        android:id="@+id/xuanjiao_xiangqing_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="25dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:textSize="14sp" />
+    <ImageView
+        android:id="@+id/xuanjiao_xiangqing_imgv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="25dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:textSize="14sp" />
+</LinearLayout>
+
+    <Button
+        android:id="@+id/xuanjiao_xiangqing_bt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="下一步"
+        android:background="@drawable/login_bt_slt"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+</LinearLayout>

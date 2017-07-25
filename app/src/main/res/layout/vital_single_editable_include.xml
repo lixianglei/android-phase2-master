@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vital_single_editable_display_ll"
+    android:layout_width="wrap_content"
+    android:layout_height="80dp"
+    android:layout_gravity="top|center"
+    android:background="#fff"
+    android:orientation="horizontal"
+    android:visibility="gone">
+
+    <EditText
+        android:id="@+id/vital_single_editable_tv"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:hint=""
+        android:maxLength="10"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/vital_single_editable_unit_tv"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:text="℃"
+        android:textSize="16sp" />
+</LinearLayout>

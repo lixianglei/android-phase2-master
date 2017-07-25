@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/hz_jiben_xinxi_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="女，63岁  G0018355_33"
+        android:textSize="22sp" />
+    <LinearLayout
+        android:id="@+id/hz_pg_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hz_jiben_xinxi_tv"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/hz_pg_tv1"
+            android:layout_width="22dp"
+            android:layout_height="16dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:text="@string/diedao"
+            android:textColor="#adadad"
+
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/hz_pg_tv2"
+            android:layout_width="22dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:text="@string/diedao"
+            android:textColor="#adadad"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/hz_pg_tv3"
+            android:layout_width="22dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:text="@string/diedao"
+            android:textColor="#adadad"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/hz_pg_tv4"
+            android:layout_width="22dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:text="@string/diedao"
+            android:textColor="#adadad"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/hz_pg_tv5"
+            android:layout_width="22dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/sy_hljb_pg_shape_1"
+            android:gravity="center"
+            android:text="@string/diedao"
+            android:textColor="#adadad"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/hz_ys_zd_tv"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/hz_pg_ll"
+        android:textColor="#9b9b9b"
+        android:text="医生：宋喆    主要诊断：肝占位性病变"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/hz_gms_tv"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/hz_ys_zd_tv"
+        android:textColor="#9b9b9b"
+        android:text="过敏史：对青霉素过敏"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

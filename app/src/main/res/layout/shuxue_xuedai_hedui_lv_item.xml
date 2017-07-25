@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#888">
+
+    <TextView
+        android:id="@+id/shuxue_xuedai_hedui_daishu_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="第1袋/共2袋"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/shuxue_xuedai_hedui_cb1"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_below="@+id/shuxue_xuedai_hedui_daishu_tv"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/shuxue_hedui_selector"
+        android:button="@null" />
+
+    <TextView
+        android:id="@+id/shuxue_xuedai_hedui_chukushijian_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shuxue_xuedai_hedui_daishu_tv"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:lines="1"
+        android:text="出库时间：2016-10-24 16:00"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/shuxue_xuedai_hedui_xuedaixuexing_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shuxue_xuedai_hedui_chukushijian_tv"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:text="血袋血型：B型"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/shuxue_xuedai_hedui_xuedairh_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shuxue_xuedai_hedui_chukushijian_tv"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/shuxue_xuedai_hedui_xuedaixuexing_tv"
+        android:text="血袋RH：阳性"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/shuxue_xuedai_hedui_xuedai_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shuxue_xuedai_hedui_xuedairh_tv"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:lines="1"
+        android:text="血袋类型名称：悬浮红细胞"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/shuxue_xuedai_hedui_xueliang_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shuxue_xuedai_hedui_xuedai_name_tv"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:lines="1"
+        android:text="血量：2.0u"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/yizhu_xiangqing_lv_imgv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/shuxue_xuedai_hedui_xuedai_name_tv"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:src="@mipmap/icon_complete" />
+
+    <CheckBox
+        android:id="@+id/shuxue_xuedai_hedui_cb2"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/shuxue_xuedai_hedui_cb1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/shuxue_hedui_selector"
+        android:button="@null"
+        android:text="血袋号：13451021540"
+        android:textColor="#98000000"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/yizhu_xiangqing_lv_imgv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/shuxue_xuedai_hedui_cb2"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="20dp"
+        android:src="@mipmap/icon_complete" />
+    <CheckBox
+        android:id="@+id/shuxue_xuedai_hedui_cb3"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/shuxue_xuedai_hedui_cb2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="15dp"
+        android:background="@drawable/shuxue_hedui_selector"
+        android:button="@null"
+        android:text="血袋号：13451021540"
+        android:textColor="#98000000"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/yizhu_xiangqing_lv_imgv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/shuxue_xuedai_hedui_cb3"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="20dp"
+        android:src="@mipmap/icon_complete" />
+</RelativeLayout>

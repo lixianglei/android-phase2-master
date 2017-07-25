@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#888"
+    tools:context=".ui.activity.YZ_YaoPin_XiangQingActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <include layout="@layout/biao_ti_lan_item"/>
+    <include layout="@layout/yi_zhu_tou_tiao_mu_include"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="药品参考图片"
+            android:textSize="16sp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/yz_xiang_qing_imgv"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/login_edt_shape"
+            android:layout_height="220dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="药品说明"
+            android:textSize="16sp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/yz_xiang_qing_shuo_ming_edt"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="start"
+            android:text="配合250ml氧化钠注射"
+            android:paddingLeft="5dp"
+            android:textSize="14sp"
+            android:textColor="#adadad"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/login_edt_shape"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+</LinearLayout>
+</RelativeLayout>

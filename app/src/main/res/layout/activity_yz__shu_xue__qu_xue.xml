@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#888"
+    tools:context="com.ge.med.mobile.nursing.ui.activity.YZ_ShuXue_QuXueActivity">
+
+    <LinearLayout
+        android:id="@+id/tou_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <include layout="@layout/biao_ti_lan_item" />
+
+        <include layout="@layout/yi_zhu_tou_tiao_mu_include" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/shuxue_xuedai_hedui_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/yz_hd_ren_bt_ll"
+        android:layout_below="@+id/tou_ll"></ListView>
+
+    <LinearLayout
+        android:id="@+id/yz_hd_ren_bt_ll"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/yz_hd_ren_yichang_bt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/ti_zheng_duo_ren_bt_selater"
+            android:gravity="center"
+            android:text="异常"
+            android:textColor="@color/abc_secondary_text_material_light"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/yz_hd_ren_fuwen_bt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/ti_zheng_duo_ren_bt_selater"
+            android:gravity="center"
+            android:visibility="gone"
+            android:enabled="false"
+            android:text="复温"
+            android:textColor="@color/abc_secondary_text_material_light"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/yz_hd_ren_tijiao_bt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ddd"
+            android:enabled="false"
+            android:gravity="center"
+            android:text="确认取血"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </LinearLayout>
+</RelativeLayout>
